@@ -93,7 +93,7 @@ int main(int argc, char **argv) {
 			bytes[bi++] = buf[pos++];
 		}
 		
-		printf("Position: %d/%d\n", pos, fsize);
+		//printf("Position: %d/%d\n", pos, fsize);
 	}
 
 	int bs = 0;
@@ -110,7 +110,6 @@ int main(int argc, char **argv) {
 	}
 	
 	fclose(outfile);
-	system("pause");
 	
 	return 0;
 }
